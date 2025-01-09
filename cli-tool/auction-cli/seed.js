@@ -7,7 +7,9 @@ dotenv.config();
 // Connect to MongoDB and seed data
 export const seedDatabase = async () => {
   try {
-    await mongoose.connect(process.env.MONGODB_URI || "mongodb://localhost/trademe");
+    await mongoose.connect(
+      process.env.MONGODB_URI || "mongodb://localhost/trademe"
+    );
     console.log("Connected to MongoDB");
 
     await AuctionItem.deleteMany({});
@@ -21,6 +23,3 @@ export const seedDatabase = async () => {
     mongoose.connection.close();
   }
 };
-
-// Run the seed function
-seedDatabase();

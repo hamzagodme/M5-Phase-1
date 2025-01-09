@@ -23,11 +23,6 @@
     "description": "A rare ceramic vase from the Ming dynasty.",
     "start_price": "500",
     "reserve_price": "700"
-  },
-   {
-    "title": "Antique watch",
-    "description": "A rare ceramic vase from the Ming dynasty.",
-    "start_price": "500",
-    "reserve_price": "700"
   }
+
 ]
