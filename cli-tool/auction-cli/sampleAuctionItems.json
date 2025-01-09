@@ -1,0 +1,33 @@
+[
+  {
+    "title": "Vintage Watch",
+    "description": "An old, collectible wristwatch.",
+    "start_price": "100",
+    "reserve_price": "150"
+  },
+  {
+    "title": "Painting",
+    "description": "A modern abstract painting.",
+    "start_price": "200",
+    "reserve_price": "250"
+  },
+  {
+    "title": "Antique Vase",
+    "description": "A rare ceramic vase from the Ming dynasty.",
+    
+    "start_price": "500",
+    "reserve_price": "700"
+  },
+  {
+    "title": "Antique watch",
+    "description": "A rare ceramic vase from the Ming dynasty.",
+    "start_price": "500",
+    "reserve_price": "700"
+  },
+   {
+    "title": "Antique watch",
+    "description": "A rare ceramic vase from the Ming dynasty.",
+    "start_price": "500",
+    "reserve_price": "700"
+  }
+]

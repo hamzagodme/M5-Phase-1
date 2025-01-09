@@ -1,0 +1,23 @@
+{
+  "name": "auction-cli",
+  "version": "1.0.0",
+  "main": "index.js",
+  "preferGlobal": true,
+  "type": "module",
+  "bin": {
+    "auction-cli": "./commands.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "A CLI tool to manage auction items",
+  "dependencies": {
+    "commander": "^13.0.0",
+    "dotenv": "^16.4.7",
+    "inquirer": "^12.3.0",
+    "mongoose": "^8.9.3"
+  }
+}
